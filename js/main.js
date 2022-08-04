@@ -52,7 +52,7 @@ function przedzial(number) {
   } 
     else  console.log("Liczba nie znajduje się w przedziale");
 }
-console.log(przedzial(150));*/
+console.log(przedzial(150));
 function logic(num1,num2) {
     if (num1==20 || num2==20 || ((num1+num2) <20)) {
         return true;
@@ -60,4 +60,13 @@ function logic(num1,num2) {
        return false; 
     }
     }
-console.log(logic(21,20));
+console.log(logic(21,20));*/
+let tekst=document.getElementById("tekst");
+let dodaj=document.getElementById("dodaj");
+let usun=document.getElementById("usun");
+dodaj.onclick =function() {
+    tekst.textContent="klinales";
+}
+usun.onclick =function() {
+    tekst.textContent="";
+}
