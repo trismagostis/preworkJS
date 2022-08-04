@@ -1,0 +1,14 @@
+input{
+    height: 3em;
+    width: 8em;
+    color: blue;
+}
+p{
+    color: brown;
+}
+button{
+    height: 4em;
+    width: 8em;
+    color: yellow; 
+    background-color: blue; 
+}

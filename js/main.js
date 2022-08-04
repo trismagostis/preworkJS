@@ -85,9 +85,15 @@ function calculate(num1,num2){
     else console.log("Wynik jest nieprawidłowy");
 }
 
-calculate(5,6);*/
+calculate(5,6);
 function pierwszy(tab) {
    return tab[0]; 
 }
 let tablica=[7,4,5];
-console.log(pierwszy(tablica));
+console.log(pierwszy(tablica));*/
+//let wyswietl=document.querySelector('button');
+document.querySelector('button').onclick=function(){
+    document.getElementById("name").textContent=document.getElementById("imie").value;
+    document.getElementById("surname").textContent=document.getElementById("nazwisko").value;
+    document.getElementById("phone").textContent=document.getElementById("numer").value;
+  }
