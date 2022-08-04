@@ -45,11 +45,19 @@ function dluzszy(num1,num2){
 }
 let number1 = "Uwielbiam JavaScript";
 let number2 = "Jestem świetnym programistą";
-console.log(dluzszy(number1,number2));*/
+console.log(dluzszy(number1,number2));
 function przedzial(number) {
   if (number<200 && number>100) {
     console.log("Liczba znajduje się w przedziale");
   } 
     else  console.log("Liczba nie znajduje się w przedziale");
 }
-console.log(przedzial(150));
+console.log(przedzial(150));*/
+function logic(num1,num2) {
+    if (num1==20 || num2==20 || ((num1+num2) <20)) {
+        return true;
+    } else {
+       return false; 
+    }
+    }
+console.log(logic(21,20));
