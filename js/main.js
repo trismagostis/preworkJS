@@ -24,7 +24,7 @@ myParagraf.textContent="BoB";
 let button=document.querySelector('button');
 button.onclick=function(){
     alert("Klik działa!");
-} */
+} 
 function wieksza(num1,num2){
     if (num1>=num2)
         return num1;
@@ -32,4 +32,9 @@ function wieksza(num1,num2){
 }
 let number1 = 2;
 let number2 = 5;
-console.log(wieksza(number1,number2))
+console.log(wieksza(number1,number2))*/
+let opis=document.getElementById("opis");
+let button=document.querySelector('button');
+button.onclick=function() {
+    opis.textContent="To jest przycisk do zadania";
+}
