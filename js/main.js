@@ -69,7 +69,7 @@ dodaj.onclick =function() {
 }
 usun.onclick =function() {
     tekst.textContent="";
-}*/
+}
 function calculate(num1,num2){
     if (num1+num2>=0 ) {
         console.log(`wynik dodawania jest równy ${num1+num2}`)   
@@ -85,4 +85,9 @@ function calculate(num1,num2){
     else console.log("Wynik jest nieprawidłowy");
 }
 
-calculate(5,6);
+calculate(5,6);*/
+function pierwszy(tab) {
+   return tab[0]; 
+}
+let tablica=[7,4,5];
+console.log(pierwszy(tablica));
