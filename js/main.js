@@ -21,3 +21,7 @@ function dodaj(num1,num2) {
 }
 let myParagraf=document.querySelector('p');
 myParagraf.textContent="BoB";
+let button=document.querySelector('button');
+button.onclick=function(){
+    alert("Klik działa!");
+} 
