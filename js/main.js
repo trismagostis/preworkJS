@@ -19,3 +19,5 @@ function dodaj(num1,num2) {
     let suma=num1+num2;
     return suma;
 }
+let myParagraf=document.querySelector('p');
+myParagraf.textContent="BoB";
