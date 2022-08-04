@@ -60,7 +60,7 @@ function logic(num1,num2) {
        return false; 
     }
     }
-console.log(logic(21,20));*/
+console.log(logic(21,20));
 let tekst=document.getElementById("tekst");
 let dodaj=document.getElementById("dodaj");
 let usun=document.getElementById("usun");
@@ -69,4 +69,20 @@ dodaj.onclick =function() {
 }
 usun.onclick =function() {
     tekst.textContent="";
+}*/
+function calculate(num1,num2){
+    if (num1+num2>=0 ) {
+        console.log(`wynik dodawania jest równy ${num1+num2}`)   
+    }
+    else console.log("Wynik jest nieprawidłowy");
+    if (num1*num2>=0 ) {
+        console.log(`wynik mnożenia jest równy ${num1*num2}`)   
+    }
+    else console.log("Wynik jest nieprawidłowy");
+    if (num1-num2>=0 ) {
+        console.log(`wynik odejmowania jest równy ${num1-num2}`)   
+    }
+    else console.log("Wynik jest nieprawidłowy");
 }
+
+calculate(5,6);
