@@ -1,4 +1,4 @@
-let firstName="Piotr";
+/*let firstName="Piotr";
 let lastName="Kaczmarzyk";
 console.log("Uwielbiam JavaScript!");
 let array =[1,2,3];
@@ -24,4 +24,12 @@ myParagraf.textContent="BoB";
 let button=document.querySelector('button');
 button.onclick=function(){
     alert("Klik działa!");
-} 
+} */
+function wieksza(num1,num2){
+    if (num1>=num2)
+        return num1;
+        else return num2;    
+}
+let number1 = 2;
+let number2 = 5;
+console.log(wieksza(number1,number2))
