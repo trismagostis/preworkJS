@@ -37,7 +37,7 @@ let opis=document.getElementById("opis");
 let button=document.querySelector('button');
 button.onclick=function() {
     opis.textContent="To jest przycisk do zadania";
-}*/
+}
 function dluzszy(num1,num2){
     if (num1.lengh>=num2.lengh)
         return num1;
@@ -45,4 +45,11 @@ function dluzszy(num1,num2){
 }
 let number1 = "Uwielbiam JavaScript";
 let number2 = "Jestem świetnym programistą";
-console.log(dluzszy(number1,number2));
+console.log(dluzszy(number1,number2));*/
+function przedzial(number) {
+  if (number<200 && number>100) {
+    console.log("Liczba znajduje się w przedziale");
+  } 
+    else  console.log("Liczba nie znajduje się w przedziale");
+}
+console.log(przedzial(150));
